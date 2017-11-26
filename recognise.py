@@ -1,2 +1,2 @@
 import subprocess
-subprocess.call('./shazamscript.sh');
+subprocess.call('./shazamscript.sh')
