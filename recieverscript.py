@@ -2,8 +2,8 @@ import boto3
 import os
 import time
 
-access_key = "AKIAJKXX47P6HOWRRX4Q"
-access_secret = "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"
+access_key = "AKIAIE3375PZH7TBOTUQ"
+access_secret = "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"
 region = "us-east-1"
 queue_url = "https://sqs.us-east-1.amazonaws.com/593887092556/alexascript"
 
