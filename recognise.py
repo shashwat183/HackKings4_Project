@@ -1,3 +1,3 @@
 import subprocess
 import os
-subprocess.call(['./shazamscript.sh'])
+os.system('./shazamscript.sh')
