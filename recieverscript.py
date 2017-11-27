@@ -2,10 +2,10 @@ import boto3
 import os
 import time
 
-access_key = "AKIAIQ46WKRTXT2GEI7Q"
-access_secret = "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"
-region = "us-east-1"
-queue_url = "https://sqs.us-east-1.amazonaws.com/593887092556/alexascript"
+access_key = ""
+access_secret = ""
+region = ""
+queue_url = ""
 
 def pop_message(client, url):
     response = client.receive_message(QueueUrl = url, MaxNumberOfMessages = 10)
